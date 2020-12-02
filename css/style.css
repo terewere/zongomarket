@@ -1,0 +1,211 @@
+
+
+body {
+
+	width: 70vw; /*viewport width*/
+	height: 100vh; /*viewport height*/
+	font-family: Helvetica;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+.logo {
+	cursor: pointer;
+	height: auto;
+	margin-right: auto;
+}
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.nav {
+	list-style-type: none;
+}
+
+.nav li {
+	display: inline-flex;
+	padding: 0 10px;
+}
+
+
+.nav li a {
+	/*transition: all 0.3s ease 0s;*/
+	font-size: 16px;
+	color: #666;
+	font-weight: bold;
+}
+
+.nav li a:hover {
+	color: #1eaf80;
+}
+
+.cart {
+	margin-left: 40px;
+}
+
+button {
+	padding: 14px 46px;
+	background-color: #1eaf80;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.main {
+	margin-top: 60px;
+	flex: auto;
+}
+
+.title {
+	color: #666;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+.categories {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.category-card {
+	flex: 1 0 21%;
+	margin: 5px;
+	text-align: center;
+	/*border: 3px solid #ccc;*/
+	border-radius: 10px;
+	height: 200px;
+	font-size: 18px;
+	box-shadow: 5px 5px 25px #ccc;
+}
+
+.category-card:hover {
+	/*border: 3px solid #1eaf80;*/
+	background-color: #d6b317;
+}
+
+.category-name {
+	margin: 10px 15px;
+}
+
+
+/************Products pages********/
+
+.products {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.product-card {
+	flex: 1 0 21%;
+	margin: 5px;
+	text-align: center;
+	/*border: 3px solid #ccc;*/
+	border-radius: 10px;
+	height: 200px;
+	font-size: 18px;
+	position: relative;
+
+}
+
+
+.product-card img {
+		width: 130px;
+		height: 130px;
+	}
+
+.product-card:hover {
+	/*border: 3px solid #ff0000;*/
+	box-shadow: 5px 5px 25px #ccc;
+}
+
+.product-name {
+	margin: 10px 15px;
+}
+
+.product-card .discount-price {
+	color: #1eaf80;
+	margin-right: 7px;
+}
+
+.product-card .price{
+	text-decoration: line-through;
+
+}
+
+.product-card .discount-percent, .detail-page .discount-percent, .product-card .out-stock {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #1eaf80;
+
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+
+}
+
+.product-card .out-stock {
+	background-color: #666;
+
+}
+
+
+.footer {
+	padding: 20px;
+	color: #666;
+
+}
+
+.detail-page {
+	display: flex;
+	
+}
+
+.detail-img {
+position: relative;
+}
+
+.detail-page div {
+	flex: 1;
+}
+
+.detail-page span {
+	flex: 1;
+}
+
+.stock {
+	display: inline-block;
+	color: #1eaf80; 
+	margin-top: 10px; 
+	font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
